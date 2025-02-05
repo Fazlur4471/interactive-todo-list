@@ -1,0 +1,61 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-item {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+
+.todo-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgba(0, 123, 255, 0.8);
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.875rem;
+}
+
+.filter-btn.active {
+  background-color: #1e40af;
+}
+
+/* Ensure the page takes full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content should take up all available space */
+.main-content {
+  flex: 1;
+}
+
+/* Footer stays at the bottom */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+}
