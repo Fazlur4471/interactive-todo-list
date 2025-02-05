@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List with Dark/Light Mode</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-800 dark:text-white transition-all flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-gray-800 text-white p-5">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">My Todo List</h1>
+      <div class="space-x-4">
+        <button id="toggleMode" class="bg-gray-700 py-2 px-4 rounded-md">Toggle Dark/Light Mode</button>
+        <button id="clearCompleted" class="bg-red-500 py-2 px-4 rounded-md">Clear Completed</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="container mx-auto p-5 flex-grow">
+    <div class="flex justify-between mb-4">
+      <input type="text" id="todoInput" class="border p-2 w-full rounded-md" placeholder="Add a todo...">
+      <button id="addTodoButton" class="bg-blue-500 text-white p-2 rounded-md ml-2">Add</button>
+    </div>
+
+    <div class="flex mb-4 space-x-4">
+      <button class="filter-btn px-4 py-2 bg-blue-500 text-white rounded-md" data-filter="all">All</button>
+      <button class="filter-btn px-4 py-2 bg-blue-500 text-white rounded-md" data-filter="active">Active</button>
+      <button class="filter-btn px-4 py-2 bg-blue-500 text-white rounded-md" data-filter="completed">Completed</button>
+    </div>
+
+    <ul id="todoList" class="mt-4">
+      <!-- Todo items will appear here -->
+    </ul>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white p-5">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 My Todo List | Designed by Fazlur Rehman</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
