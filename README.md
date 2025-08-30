@@ -1,24 +1,42 @@
-# Interactive Todo List
+# 📝 Interactive Todo List  
 
-An interactive Todo List with dark/light mode toggle, todo filtering (All, Active, Completed), and persistent storage using localStorage. Built with HTML, CSS, JavaScript, and styled with Tailwind CSS.
+An **interactive and modern Todo List app** with dark/light mode, powerful filtering, and persistent storage using `localStorage`.  
+Built with **HTML, CSS, JavaScript**, and styled using **Tailwind CSS**.  
 
-## Features:
-- Dark/Light mode toggle
-- Filter todos: All, Active, Completed
-- Persistent todos with localStorage (todos persist even after page reload)
-- Responsive design using Tailwind CSS
-- Clean and modern UI
+---
 
-## Demo:
-You can view a live demo of this project here: [GitHub Pages](https://your-username.github.io/interactive-todo-list) 
+## ✨ Features  
 
-## Installation:
-To run this project locally:
+- 🌗 **Dark/Light mode toggle**  
+- ✅ **Filter todos** → *All, Active, Completed*  
+- 💾 **Persistent storage** → Todos remain even after browser reload using `localStorage`  
+- 📱 **Responsive design** with Tailwind CSS  
+- 🎨 **Clean & modern UI**  
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/interactive-todo-list.git
+---
 
-2. Navigate into project directory
-   cd interactive-todo-list
-3. Open index.html into your browser to view the project 
+
+## 🛠️ Installation  
+
+Run this project locally in just a few steps:  
+
+```bash
+# Clone this repository
+git clone https://github.com/your-username/interactive-todo-list.git  
+
+# Move into the project folder
+cd interactive-todo-list  
+
+# Open index.html in your browser
+
+📂 Project Structure
+interactive-todo-list/
+│── index.html
+│── style.css
+│── script.js
+│── README.md
+```
+🤝 Contributing
+
+Contributions are welcome! 🎉
+Fork this repo, create a new branch, and submit a pull request.
